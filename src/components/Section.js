@@ -5,7 +5,7 @@ function Section() {
   return (
     <Wrap>
         <ItemText>
-            <h1>Model s</h1>
+            <h1>Model S</h1>
             <p>Order Online for Touchless delivery</p>
         </ItemText>
         <ButtonGroup>
@@ -28,19 +28,31 @@ const Wrap = styled.div`
     background-position:centre;
     background-repeat:no-repeat;
     background-image:url('/images/model-s.jpg');
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
 `
 const ItemText = styled.div`
     padding-top:15vh;
     text-align:center;
 `//component
 
-const ButtonGroup = styled.div``;
+const ButtonGroup = styled.div`
+    display:flex;
+`;
 
 const LeftButton = styled.div`
     background-color:rgba(23,26,32,0.8);
     height:40px;
     width:256px;
     color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 100px;
+    opacity:0.85;
+    text-transform:uppercase;
+    font-size:12px;
 `;
 
 const RightButton = styled(LeftButton)`
