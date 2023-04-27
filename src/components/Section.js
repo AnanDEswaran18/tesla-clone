@@ -13,7 +13,7 @@ function Section() {
                 Custom Order
             </LeftButton>
             <RightButton>
-                Existing Inventory
+                Existing Inventory 
             </RightButton>
         </ButtonGroup>
     </Wrap>
