@@ -37,7 +37,7 @@ const Wrap = styled.div`
     align-items:center;
 `
 const ItemText = styled.div`
-    padding-top:15vh;
+    margin-top:15vh;
     text-align:center;
 `//component
 
@@ -56,7 +56,7 @@ const LeftButton = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    border-radius: 100px;
+    border-radius: 20px;
     opacity:0.85;
     text-transform:uppercase;
     font-size:12px;
