@@ -13,13 +13,6 @@ function Home() {
         rightBtnText="Existing Inventory"
       /> 
       <Section 
-        title="Model X"
-        description="Order Online for Touchless delivery"
-        backgroundImage="model-x.jpg"
-        leftBtnText="Custom order"
-        rightBtnText="Existing Inventory" 
-      />
-      <Section 
         title="Model Y"
         description="Order Online for Touchless delivery"
         backgroundImage="model-y.jpg"
@@ -32,6 +25,34 @@ function Home() {
         backgroundImage="model-3.jpg"
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory" 
+      />
+      <Section 
+        title="Model X"
+        description="Order Online for Touchless delivery"
+        backgroundImage="model-x.jpg" 
+        leftBtnText="Custom order"
+        rightBtnText="Existing Inventory" 
+      />
+      <Section
+        title="Lowest Cost Solar Panels"
+        description="Money-back guarantee"
+        backgroundImage="solar-panel.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more" 
+      />
+      <Section
+        title="Lowest Cost Solar Roofs"
+        description="Money-back guarantee"
+        backgroundImage="solar-roof.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more" 
+      />
+      <Section
+        title="Accessories"
+        description="Money-back guarantee"
+        backgroundImage="accessories.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more" 
       />
     </Container>
   )

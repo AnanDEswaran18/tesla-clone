@@ -35,7 +35,7 @@ const Wrap = styled.div`
     flex-direction:column; 
     justify-content:space-between;
     align-items:center;
-    background-image: ${props=>`url("./images/${props.bgImage}")`}
+    background-image: ${props=>`url("/images/${props.bgImage}")`}
 `
 const ItemText = styled.div`
     margin-top:15vh;
