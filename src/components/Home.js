@@ -41,8 +41,8 @@ function Home() {
         rightBtnText="Learn more" 
       />
       <Section
-        title="Lowest Cost Solar Roofs"
-        description="Money-back guarantee"
+        title="Solar for new Roofs"
+        description="Solar Roofs Costs Less than a New Roof Plus Solar Panels"
         backgroundImage="solar-roof.jpg"
         leftBtnText="Order now"
         rightBtnText="Learn more" 
@@ -51,8 +51,7 @@ function Home() {
         title="Accessories"
         description="Money-back guarantee"
         backgroundImage="accessories.jpg"
-        leftBtnText="Order now"
-        rightBtnText="Learn more" 
+        leftBtnText="Shop now"
       />
     </Container>
   )
