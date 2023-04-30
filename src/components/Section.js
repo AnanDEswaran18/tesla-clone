@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Section({title, description, leftBtnText, rightBtnText, backgroundImage}) {
     // console.log(props);
   return (
-      <Wrap bgImage={backgroundImage}>
+      <Container bgImage={backgroundImage}>
         <ItemText>
             <h1>{title}</h1>
             <p>{description}</p>
@@ -22,12 +22,12 @@ function Section({title, description, leftBtnText, rightBtnText, backgroundImage
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg"/>
         </Buttons>
-    </Wrap>
+    </Container>
   )
 }
 
 export default Section
-const Wrap = styled.div`
+const Container = styled.div`
     width:100vw;
     height:100vh;
     background-size:cover;
