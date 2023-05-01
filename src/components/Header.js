@@ -39,7 +39,7 @@ const Menu = styled.div`
   align-items:center;
   justify-content:center;
   flex:1;
-  p{
+  a{
     font-weight:600;
     text-transform:uppercase;
     padding:0 10px;
