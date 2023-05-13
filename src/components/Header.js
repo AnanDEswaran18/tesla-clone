@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
   return (
@@ -16,7 +17,8 @@ function Header() {
       <RightMenu>
         <a href="#">Shop</a>
         <a href="#">Tesla Account</a>
-      </RightMenu>
+        <CutsomMenu></CutsomMenu>
+      </RightMenu> 
     </Container>
   )
 }
@@ -43,9 +45,19 @@ const Menu = styled.div`
     font-weight:600;
     text-transform:uppercase;
     padding:0 10px;
+    flex-wrap:nowrap;
   }
 `
 
 const RightMenu = styled.div`
-
+  display:flex;
+  align-items:center;
+  a{
+    font-weight:600;
+    text-transform:uppercase;
+    margin-right:10px;
+  }
+`
+const CutsomMenu = styled(MenuIcon)`
+  cursor:pointer;
 `
