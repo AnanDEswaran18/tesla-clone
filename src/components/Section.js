@@ -6,25 +6,28 @@ function Section({title, description, leftBtnText, rightBtnText, backgroundImage
     // console.log(props);
   return (
       <Container bgImage={backgroundImage}>
-      <Fade bottom>
-        <ItemText>
-            <h1>{title}</h1>
-            <p>{description}</p>
-        </ItemText>
+        <Fade bottom>
+            <ItemText>
+                <h1>{title}</h1>
+                <p>{description}</p>
+            </ItemText>
+        </Fade>
         <Buttons>
-            <ButtonGroup>
-                <LeftButton>
-                    {leftBtnText}
-                </LeftButton>
-                {rightBtnText && 
-                    <RightButton>
-                        {rightBtnText}
-                    </RightButton>
-                }
-            </ButtonGroup>
+            <Fade bottom>
+                <ButtonGroup>
+                    <LeftButton>
+                        {leftBtnText}
+                    </LeftButton>
+                    {rightBtnText && 
+                        <RightButton>
+                            {rightBtnText}
+                        </RightButton>
+                    }
+                </ButtonGroup>
+            </Fade>
             <DownArrow src="/images/down-arrow.svg"/>
         </Buttons>
-    </Fade>
+
     </Container>
   )
 }
