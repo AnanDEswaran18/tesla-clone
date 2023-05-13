@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade';
 
 function Section({title, description, leftBtnText, rightBtnText, backgroundImage}) {
     // console.log(props);
   return (
       <Container bgImage={backgroundImage}>
+      <Fade bottom>
         <ItemText>
             <h1>{title}</h1>
             <p>{description}</p>
@@ -22,6 +24,7 @@ function Section({title, description, leftBtnText, rightBtnText, backgroundImage
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg"/>
         </Buttons>
+    </Fade>
     </Container>
   )
 }
