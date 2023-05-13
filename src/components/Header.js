@@ -31,6 +31,7 @@ const Container = styled.div`
   min-height:60px;
   display:flex;
   align-items:center;
+  justify-content:space-between;
   top:0;
   left:0;
   right:0;
@@ -46,6 +47,10 @@ const Menu = styled.div`
     text-transform:uppercase;
     padding:0 10px;
     flex-wrap:nowrap;
+  }
+
+  @media(max-width:800px){
+    display:none;
   }
 `
 
