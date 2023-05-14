@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/tesla-clone/static/css/main.cdc3f938.css",
-    "main.js": "/github.io/tesla-clone/static/js/main.7d75d075.js",
-    "static/js/787.860837ff.chunk.js": "/github.io/tesla-clone/static/js/787.860837ff.chunk.js",
-    "index.html": "/github.io/tesla-clone/index.html",
-    "main.cdc3f938.css.map": "/github.io/tesla-clone/static/css/main.cdc3f938.css.map",
-    "main.7d75d075.js.map": "/github.io/tesla-clone/static/js/main.7d75d075.js.map",
-    "787.860837ff.chunk.js.map": "/github.io/tesla-clone/static/js/787.860837ff.chunk.js.map"
+    "main.css": "/tesla-clone/static/css/main.cdc3f938.css",
+    "main.js": "/tesla-clone/static/js/main.dc6b8740.js",
+    "static/js/787.860837ff.chunk.js": "/tesla-clone/static/js/787.860837ff.chunk.js",
+    "index.html": "/tesla-clone/index.html",
+    "main.cdc3f938.css.map": "/tesla-clone/static/css/main.cdc3f938.css.map",
+    "main.dc6b8740.js.map": "/tesla-clone/static/js/main.dc6b8740.js.map",
+    "787.860837ff.chunk.js.map": "/tesla-clone/static/js/787.860837ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc3f938.css",
-    "static/js/main.7d75d075.js"
+    "static/js/main.dc6b8740.js"
   ]
 }
