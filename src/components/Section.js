@@ -32,7 +32,7 @@ function Section({title, description, leftBtnText, rightBtnText, backgroundImage
   )
 }
 
-export default Section
+export default Section 
 const Container = styled.div`
     width:100vw;
     height:100vh;
